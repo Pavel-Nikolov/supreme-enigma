@@ -17,6 +17,7 @@ public abstract class AbstractShoppingCart implements ShoppingCart {
         if (item == null) {
             throw new IllegalArgumentException(ITEM_NULL_MESSAGE);
         }
+       
     }
 
 }
